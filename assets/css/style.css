@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 1.25rem; 
+}
+
+header nav ul li:first-child a {
+    color: #333333;
+    font-weight: bold;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #808080;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
